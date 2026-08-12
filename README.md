@@ -16,8 +16,6 @@ This app was built using Streamlit.
 
 ## Try it yourself!
 
-[This is the app!](https://viewer-csv.streamlit.app/)
-
-# :)
+# [:)](https://viewer-csv.streamlit.app)
 
 
