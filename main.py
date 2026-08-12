@@ -7,6 +7,9 @@ st.write("Look, Honey! A CSV!!")
 
 data = st.file_uploader("Upload your CSV", type="csv")
 
+if data is None:
+    st.write("☝")
+
 if data is not None:
     @st.cache_data
     def load(file):
