@@ -11,7 +11,6 @@ if data is None:
     st.write("☝")
 
 if data is not None:
-    st.balloons()
     @st.cache_data
     def load(file):
         return pd.read_csv(file)
